@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  apache-app:
+    container_name: "apache-app"
+    build: .
+    ports:
+    - "8080:80"
